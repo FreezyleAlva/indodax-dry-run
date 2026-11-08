@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+.data/
+*.log
+next-env.d.ts
+tsconfig.tsbuildinfo
+.vercel/
+submission/
+*.zip
+dashboard/offline/index.html
+FREEZE-COMMIT.txt

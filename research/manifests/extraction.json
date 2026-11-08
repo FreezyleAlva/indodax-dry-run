@@ -1,0 +1,239 @@
+{
+ "source": "https://indodax.com/tradingview/history_v2 (API publik, tanpa API key)",
+ "protocol": "Per pasangan: minta halaman terbaru, simpan mentah + SHA256, set `to` ke bar paling awal - 1 detik, mundur sampai awal warm-up. Sekuensial, jeda minimal 350 ms (< 3 request/detik). Dedup per open_time. Hanya bar yang sudah tutup pada waktu ekstraksi.",
+ "extractedAt": "2026-11-08T17:37:42.649Z",
+ "warmupStart": "2023-09-21T21:00:00.000Z",
+ "backtestStart": "2023-11-04T05:00:00Z",
+ "results": [
+  {
+   "pair": "btcidr",
+   "timeframe": "240",
+   "requests": 3,
+   "retries": 0,
+   "pages": [
+    {
+     "page": 0,
+     "from": 1750959458,
+     "to": 1794159458,
+     "bars": 3001,
+     "first": 1750953600,
+     "last": 1794153600,
+     "sha256": "6f1c9491235eb54ccb32dcd22fef8867c61f669752fe1ba790c3c98b59ed95fe",
+     "file": "raw/btcidr_240/page_000.json"
+    },
+    {
+     "page": 1,
+     "from": 1707753599,
+     "to": 1750953599,
+     "bars": 3001,
+     "first": 1707739200,
+     "last": 1750939200,
+     "sha256": "4882f16085895f56b472c15f3284f5c2bc5b58a1ad56b2ec0ec54fe5165e8d51",
+     "file": "raw/btcidr_240/page_001.json"
+    },
+    {
+     "page": 2,
+     "from": 1695330000,
+     "to": 1707739199,
+     "bars": 862,
+     "first": 1695326400,
+     "last": 1707724800,
+     "sha256": "fb93ae8a8c1c6d6f5fb0f9b4f1cd3495f1fcbdcd8588b8548b4e459e648d000a",
+     "file": "raw/btcidr_240/page_002.json"
+    }
+   ],
+   "bars": 6863,
+   "first": "2023-09-21T20:00:00.000Z",
+   "last": "2026-11-08T12:00:00.000Z",
+   "invalid": [],
+   "gaps": 0,
+   "gapList": [],
+   "mergedFile": "btcidr_240.json",
+   "mergedSha256": "af5cc1ae47b5537f6ff413f258680189fdb0f555655487ee6d79a00bd2986daf"
+  },
+  {
+   "pair": "ethidr",
+   "timeframe": "240",
+   "requests": 3,
+   "retries": 0,
+   "pages": [
+    {
+     "page": 0,
+     "from": 1750959458,
+     "to": 1794159458,
+     "bars": 3001,
+     "first": 1750953600,
+     "last": 1794153600,
+     "sha256": "0e19a5967f6e49f3640809d388711c16747d157b228881292df3b6eead222aa8",
+     "file": "raw/ethidr_240/page_000.json"
+    },
+    {
+     "page": 1,
+     "from": 1707753599,
+     "to": 1750953599,
+     "bars": 3001,
+     "first": 1707739200,
+     "last": 1750939200,
+     "sha256": "92b0ff087badd2fef299f7cb1111c19d0336137f6d5a7d40cd471e698ff82bf5",
+     "file": "raw/ethidr_240/page_001.json"
+    },
+    {
+     "page": 2,
+     "from": 1695330000,
+     "to": 1707739199,
+     "bars": 862,
+     "first": 1695326400,
+     "last": 1707724800,
+     "sha256": "d9f0877980621b5c7798491ffe803565f38d8c2631ec9be0a92d0e9a1a93a992",
+     "file": "raw/ethidr_240/page_002.json"
+    }
+   ],
+   "bars": 6863,
+   "first": "2023-09-21T20:00:00.000Z",
+   "last": "2026-11-08T12:00:00.000Z",
+   "invalid": [],
+   "gaps": 0,
+   "gapList": [],
+   "mergedFile": "ethidr_240.json",
+   "mergedSha256": "23fc8d0f95ad23a8cb3be99b9af9f0f7aff8e480f4ba775450413aa7a4c43d9a"
+  },
+  {
+   "pair": "xrpidr",
+   "timeframe": "240",
+   "requests": 3,
+   "retries": 0,
+   "pages": [
+    {
+     "page": 0,
+     "from": 1750959458,
+     "to": 1794159458,
+     "bars": 3001,
+     "first": 1750953600,
+     "last": 1794153600,
+     "sha256": "c3edd6571ca489c6794e948bc1aa046c587a3fae1e5eebf7a43a1220fc79e74f",
+     "file": "raw/xrpidr_240/page_000.json"
+    },
+    {
+     "page": 1,
+     "from": 1707753599,
+     "to": 1750953599,
+     "bars": 3001,
+     "first": 1707739200,
+     "last": 1750939200,
+     "sha256": "51448e4ff6d641d977ab9734cd2b15d8e17d28a11ce022aa020af0c677f5c849",
+     "file": "raw/xrpidr_240/page_001.json"
+    },
+    {
+     "page": 2,
+     "from": 1695330000,
+     "to": 1707739199,
+     "bars": 862,
+     "first": 1695326400,
+     "last": 1707724800,
+     "sha256": "a16f4ce2da7759e8a0867c241a969338011280faf093cb65bbdf8f55c9b0c051",
+     "file": "raw/xrpidr_240/page_002.json"
+    }
+   ],
+   "bars": 6863,
+   "first": "2023-09-21T20:00:00.000Z",
+   "last": "2026-11-08T12:00:00.000Z",
+   "invalid": [],
+   "gaps": 0,
+   "gapList": [],
+   "mergedFile": "xrpidr_240.json",
+   "mergedSha256": "79115ff6dc68cb24e2f67bd915ecc841a130fb94845b541a82ac1786bdfc9c2c"
+  },
+  {
+   "pair": "dogeidr",
+   "timeframe": "240",
+   "requests": 3,
+   "retries": 0,
+   "pages": [
+    {
+     "page": 0,
+     "from": 1750959458,
+     "to": 1794159458,
+     "bars": 3001,
+     "first": 1750953600,
+     "last": 1794153600,
+     "sha256": "823d847438d32a90c3536d09de5b17e83694171bb0c434f35a09cebc376acf4a",
+     "file": "raw/dogeidr_240/page_000.json"
+    },
+    {
+     "page": 1,
+     "from": 1707753599,
+     "to": 1750953599,
+     "bars": 3001,
+     "first": 1707739200,
+     "last": 1750939200,
+     "sha256": "89bfb05a3dcd29dd2ff199391b895d0681e744d1d70c413b3a08bcc1bb183d41",
+     "file": "raw/dogeidr_240/page_001.json"
+    },
+    {
+     "page": 2,
+     "from": 1695330000,
+     "to": 1707739199,
+     "bars": 862,
+     "first": 1695326400,
+     "last": 1707724800,
+     "sha256": "a9a3bd7a47d0b0b43eba9aa959d1b2a91f317d7999e5cf57f729b07027f4f510",
+     "file": "raw/dogeidr_240/page_002.json"
+    }
+   ],
+   "bars": 6863,
+   "first": "2023-09-21T20:00:00.000Z",
+   "last": "2026-11-08T12:00:00.000Z",
+   "invalid": [],
+   "gaps": 0,
+   "gapList": [],
+   "mergedFile": "dogeidr_240.json",
+   "mergedSha256": "8a31daa311c4b268894f9414ca244e7f1e9cf46ce6dda711acc9878838459328"
+  },
+  {
+   "pair": "solidr",
+   "timeframe": "240",
+   "requests": 3,
+   "retries": 0,
+   "pages": [
+    {
+     "page": 0,
+     "from": 1750959458,
+     "to": 1794159458,
+     "bars": 3001,
+     "first": 1750953600,
+     "last": 1794153600,
+     "sha256": "09cfc7f70304222fea832513af714006319c51dc41d42ed2b7caada4bea6fb74",
+     "file": "raw/solidr_240/page_000.json"
+    },
+    {
+     "page": 1,
+     "from": 1707753599,
+     "to": 1750953599,
+     "bars": 3001,
+     "first": 1707739200,
+     "last": 1750939200,
+     "sha256": "8c273015e8a91452aad205ccfa2140118fe0321537d01b5cd9bb6f78e980cadb",
+     "file": "raw/solidr_240/page_001.json"
+    },
+    {
+     "page": 2,
+     "from": 1695330000,
+     "to": 1707739199,
+     "bars": 862,
+     "first": 1695326400,
+     "last": 1707724800,
+     "sha256": "e2c8a5d381f9742eec46599f5ce217bd9ed4c64bf0c7a967181a1b372609b948",
+     "file": "raw/solidr_240/page_002.json"
+    }
+   ],
+   "bars": 6863,
+   "first": "2023-09-21T20:00:00.000Z",
+   "last": "2026-11-08T12:00:00.000Z",
+   "invalid": [],
+   "gaps": 0,
+   "gapList": [],
+   "mergedFile": "solidr_240.json",
+   "mergedSha256": "7f4b4e7f8db340095f79e43c3c756901805fe09ddfdb8e43a43a9e4b3aa8b83b"
+  }
+ ]
+}

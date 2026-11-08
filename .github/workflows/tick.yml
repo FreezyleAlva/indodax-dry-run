@@ -1,0 +1,32 @@
+name: scheduled-dry-run
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: dry-run-tick
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Invoke Vercel tick
+        env:
+          BOT_TICK_URL: ${{ secrets.BOT_TICK_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          SCHEDULED_AT=$(date -u +"%Y-%m-%dT%H:07:00Z")
+          for attempt in 1 2 3; do
+            code=$(curl --silent --show-error --output resp.json --write-out "%{http_code}" --max-time 290 \
+              -X POST "$BOT_TICK_URL" \
+              -H "Authorization: Bearer $CRON_SECRET" \
+              -H "Content-Type: application/json" \
+              --data "{\"source\":\"github-actions\",\"scheduledAt\":\"$SCHEDULED_AT\"}") || code=000
+            echo "attempt $attempt http $code"
+            head -c 600 resp.json || true
+            echo
+            if [ "$code" = "200" ]; then exit 0; fi
+            sleep $((attempt * 20))
+          done
+          exit 1

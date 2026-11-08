@@ -1,0 +1,48 @@
+{
+ "method": "Biaya eksekusi relatif terhadap mid saat snapshot: buy = VWAP ask untuk order Rp18.000.000 / mid - 1; sell = 1 - VWAP bid / mid untuk kuantitas yang sama. Median per pasangan dari semua snapshot valid. Fee taker dihitung terpisah.",
+ "sizeIdr": 18000000,
+ "snapshots": 3,
+ "updatedAt": "2026-11-08T17:40:32.822Z",
+ "perPair": {
+  "btcidr": {
+   "samples": 3,
+   "medianSpreadBps": 2.6312327325351927,
+   "medianBuyCostBps": 1.315616366268646,
+   "medianSellCostBps": 1.32072646187531,
+   "buyCost": 0.0001315616366268646,
+   "sellCost": 0.000132072646187531
+  },
+  "ethidr": {
+   "samples": 3,
+   "medianSpreadBps": 8.947656211164686,
+   "medianBuyCostBps": 4.473828105582278,
+   "medianSellCostBps": 5.466653414173406,
+   "buyCost": 0.0004473828105582278,
+   "sellCost": 0.0005466653414173406
+  },
+  "xrpidr": {
+   "samples": 3,
+   "medianSpreadBps": 8.166598611678236,
+   "medianBuyCostBps": 4.083299305839283,
+   "medianSellCostBps": 4.083299305839283,
+   "buyCost": 0.0004083299305839283,
+   "sellCost": 0.0004083299305839283
+  },
+  "dogeidr": {
+   "samples": 3,
+   "medianSpreadBps": 7.803355442840422,
+   "medianBuyCostBps": 3.9016777214206932,
+   "medianSellCostBps": 11.687804222482168,
+   "buyCost": 0.0003901677721420693,
+   "sellCost": 0.0011687804222482168
+  },
+  "solidr": {
+   "samples": 3,
+   "medianSpreadBps": 8.193938971940423,
+   "medianBuyCostBps": 4.096969485969382,
+   "medianSellCostBps": 11.201234953350792,
+   "buyCost": 0.00040969694859693817,
+   "sellCost": 0.0011201234953350792
+  }
+ }
+}

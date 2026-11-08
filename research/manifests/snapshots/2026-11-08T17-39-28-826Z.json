@@ -1,0 +1,60 @@
+{
+ "sizeIdr": 18000000,
+ "samples": [
+  {
+   "pair": "btcidr",
+   "capturedAt": "2026-11-08T17:39:29.158Z",
+   "spreadBps": 2.6312327325351927,
+   "buyCostBps": 1.315616366268646,
+   "sellCostBps": 1.32072646187531,
+   "buyFillRatio": 0.9999997686000001,
+   "levelsUsedBuy": 1,
+   "valid": true,
+   "reason": null
+  },
+  {
+   "pair": "ethidr",
+   "capturedAt": "2026-11-08T17:39:29.529Z",
+   "spreadBps": 8.947433826270661,
+   "buyCostBps": 4.473716913135917,
+   "sellCostBps": 4.4737169131348065,
+   "buyFillRatio": 0.9999999790216666,
+   "levelsUsedBuy": 1,
+   "valid": true,
+   "reason": null
+  },
+  {
+   "pair": "xrpidr",
+   "capturedAt": "2026-11-08T17:39:30.093Z",
+   "spreadBps": 8.163853338775903,
+   "buyCostBps": 4.081926669388114,
+   "sellCostBps": 4.081926669389224,
+   "buyFillRatio": 0.9999999999893866,
+   "levelsUsedBuy": 1,
+   "valid": true,
+   "reason": null
+  },
+  {
+   "pair": "dogeidr",
+   "capturedAt": "2026-11-08T17:39:30.247Z",
+   "spreadBps": 7.803355442840422,
+   "buyCostBps": 3.9016777214206932,
+   "sellCostBps": 11.687804222482168,
+   "buyFillRatio": 0.9999999999996511,
+   "levelsUsedBuy": 1,
+   "valid": true,
+   "reason": null
+  },
+  {
+   "pair": "solidr",
+   "capturedAt": "2026-11-08T17:39:30.603Z",
+   "spreadBps": 8.18772456792967,
+   "buyCostBps": 4.0938622839648,
+   "sellCostBps": 11.198130107957782,
+   "buyFillRatio": 0.99999999989286,
+   "levelsUsedBuy": 1,
+   "valid": true,
+   "reason": null
+  }
+ ]
+}

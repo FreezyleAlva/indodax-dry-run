@@ -1,0 +1,3190 @@
+{
+ "rule": "Top 5 pasangan IDR menurut rata-rata nilai transaksi harian (close x volume, IDR) selama 30 hari sebelum awal backtest 2023-11-04T05:00:00Z; minimal 28 hari data; stablecoin dan aset yang dipatok (USD/emas) dikeluarkan.",
+ "survivorshipNote": "Kandidat diambil dari /api/pairs saat akses. Pasangan yang sudah delisting sebelum tanggal akses tidak terlihat dari API publik; keterbatasan ini dicatat, bukan disembunyikan.",
+ "accessedAt": "2026-11-08T17:33:32.374Z",
+ "candidates": 433,
+ "requests": 435,
+ "retries": 0,
+ "selected": [
+  "btcidr",
+  "ethidr",
+  "xrpidr",
+  "dogeidr",
+  "solidr"
+ ],
+ "top20": [
+  {
+   "pair": "btcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 16444310816.815952,
+   "firstDay": "2023-10-06",
+   "rawHash": "01cd6e1bcbaec975ded82f14e05f136791abc8d42d73b1e3db8fed0f039431af"
+  },
+  {
+   "pair": "ethidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4614922450.166086,
+   "firstDay": "2023-10-06",
+   "rawHash": "e1866b52da10a238ba8d5c564adc6e473bc145dd86f767d0903b2a588344d645"
+  },
+  {
+   "pair": "xrpidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3852635403.5579376,
+   "firstDay": "2023-10-06",
+   "rawHash": "4aea8f0dc7a548d719f0e9e41237f4970ba30a9d5675e6fbd24173970b69b540"
+  },
+  {
+   "pair": "dogeidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 2332283042.24785,
+   "firstDay": "2023-10-06",
+   "rawHash": "c3f2494dacf398e78608670cffe2a3ecdb19260dcdc338d14fc117ed51d0388a"
+  },
+  {
+   "pair": "solidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1596202282.18992,
+   "firstDay": "2023-10-06",
+   "rawHash": "676d4c266e8aba6a2aff8dc3c6d8efc72d35b1232e4d1ef643c8a992df3d4b9c"
+  },
+  {
+   "pair": "adaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1149932140.2339768,
+   "firstDay": "2023-10-06",
+   "rawHash": "f20c23f6768056fa8b7ae7cead9dcbc5550e55ac2339936f799bcc7315196020"
+  },
+  {
+   "pair": "trxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 949622714.5667412,
+   "firstDay": "2023-10-06",
+   "rawHash": "695f4a89e9b8a92d6f0b72808ec671c999392bcaa73938bebfdf7a3a37339d17"
+  },
+  {
+   "pair": "bnbidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 797374776.4150606,
+   "firstDay": "2023-10-06",
+   "rawHash": "07887eed285f0d643451c17ed8d8402c525bbefba552e5f7ae4ba318a2603869"
+  },
+  {
+   "pair": "veloidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 693331400.1374421,
+   "firstDay": "2023-10-06",
+   "rawHash": "661ceb2005d25b3e52cac87838c880b02512ed2c6ccce274a330c2b851ca9524"
+  },
+  {
+   "pair": "stikidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 621049372.9326764,
+   "firstDay": "2023-10-06",
+   "rawHash": "4eeecb75761f2a850d4503ec5ca623978ec1273efde6ee2b75584b0d527df694"
+  },
+  {
+   "pair": "linkidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 460428941.83426017,
+   "firstDay": "2023-10-06",
+   "rawHash": "7882c086999fddcfac8d025c00132f46e01977452b3d632d6d39086db50429a6"
+  },
+  {
+   "pair": "ltcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 339515027.24465126,
+   "firstDay": "2023-10-06",
+   "rawHash": "58c0d24e753847c87cd7e69feb4bbcc7e2e6a0e9c6f5e22381a0832af32b2cab"
+  },
+  {
+   "pair": "orbsidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 331256638.7154646,
+   "firstDay": "2023-10-06",
+   "rawHash": "1ce173b947d8aad6d4f6243eb35dcfd1c0871ff0fe5cf8e3a353ae05e2bc6681"
+  },
+  {
+   "pair": "dotidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 312585468.17503047,
+   "firstDay": "2023-10-06",
+   "rawHash": "610df705534a5455d8ee6e088ba2186060671f271477e0ae7845d9e41b756239"
+  },
+  {
+   "pair": "hbaridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 228101180.60479906,
+   "firstDay": "2023-10-06",
+   "rawHash": "4b15b2551595b9f29c10bbb1d2ddb7d55f9af319fddd4fa63487f3f507012ae1"
+  },
+  {
+   "pair": "zilidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 195968928.9762157,
+   "firstDay": "2023-10-06",
+   "rawHash": "f2e75d5641c67063649a341928fe1e863aa4492b5ffa7792995c9bb317d09caa"
+  },
+  {
+   "pair": "metaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 183394176.2454992,
+   "firstDay": "2023-10-06",
+   "rawHash": "12ae1bfe50354a3e0ab908c9faadb36f4cf287c6efed6f149ae7daf640b46e37"
+  },
+  {
+   "pair": "sandidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 182118205.07180613,
+   "firstDay": "2023-10-06",
+   "rawHash": "879e380b29c094a553b5a2228bffc4164f891a7d8b02f5862e51f6e52742421b"
+  },
+  {
+   "pair": "sushiidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 164053687.74201676,
+   "firstDay": "2023-10-06",
+   "rawHash": "d91824a7fbd5671f781d0a700de71d1df5fbb7d64674b95c01f15f4abd6a1675"
+  },
+  {
+   "pair": "grtidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 123704057.02253917,
+   "firstDay": "2023-10-06",
+   "rawHash": "b3b1abe2a1085841f0f6cf20d172e72c7f2c7ff8a0acf02a3223cbe86ac3ed6a"
+  }
+ ],
+ "all": [
+  {
+   "pair": "btcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 16444310816.815952,
+   "firstDay": "2023-10-06",
+   "rawHash": "01cd6e1bcbaec975ded82f14e05f136791abc8d42d73b1e3db8fed0f039431af"
+  },
+  {
+   "pair": "1inchidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aaveidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aaplxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "abidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aceidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "achidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 17513211.709839158,
+   "firstDay": "2023-10-06",
+   "rawHash": "8c357a2b36ff724a7abe3b3a48780070d517ddde35241e25c5dce226534eacc6"
+  },
+  {
+   "pair": "acnidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "acsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "actsolidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 52821086.844096035,
+   "firstDay": "2023-10-06",
+   "rawHash": "4e23a1ba05837785d3542d3f6d4cd70c5e0814215aefe57f39e1a9840b7c104c"
+  },
+  {
+   "pair": "adaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1149932140.2339768,
+   "firstDay": "2023-10-06",
+   "rawHash": "f20c23f6768056fa8b7ae7cead9dcbc5550e55ac2339936f799bcc7315196020"
+  },
+  {
+   "pair": "aeroidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aevoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "agiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aihidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aiozidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 15080692.384154288,
+   "firstDay": "2023-10-06",
+   "rawHash": "bf4824e60d551c3a09823702951a389f989636f753147cf98998428f932e3f1a"
+  },
+  {
+   "pair": "aixbtidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aleidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "aliceidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 14357451.897309316,
+   "firstDay": "2023-10-06",
+   "rawHash": "20853bf3dc7abff562554088af04a7c0343d32c331c8a62c3b84c88997b8a395"
+  },
+  {
+   "pair": "algoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 75923495.65074652,
+   "firstDay": "2023-10-06",
+   "rawHash": "6c7ba7bc188a3dccbda9ccdc7ae179d4a2ea7c819f8a90bf4e7785d6eb21a5fa"
+  },
+  {
+   "pair": "alloidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "altlayeridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 22120768.892690938,
+   "firstDay": "2023-10-06",
+   "rawHash": "6ef14d929d91dd77888fb81a47a56fd92bac6dfa489853d4e0884a267ffc4428"
+  },
+  {
+   "pair": "amznxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ampidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 21377083.44492375,
+   "firstDay": "2023-10-06",
+   "rawHash": "7f573e95125c46e0be23a31679b9d6766d609e66053969d95f30e37265688c96"
+  },
+  {
+   "pair": "animeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ankridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 30020862.45663987,
+   "firstDay": "2023-10-06",
+   "rawHash": "01eb6edf9ac453b24c08ec109bc201bdbfd39134ad56cfdaa22b0bc25c4fe8a3"
+  },
+  {
+   "pair": "anoaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "apeidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 27312356.441156063,
+   "firstDay": "2023-10-06",
+   "rawHash": "9b9dae88cd2bea90c498e8c4753857f2e2521ee9b3af398571c816b8bd701d1a"
+  },
+  {
+   "pair": "apexidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "api3idr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 19157009.171898063,
+   "firstDay": "2023-10-06",
+   "rawHash": "5799b774d2ff1d613d77cac51d25d5ee63f4f6c0f91abeef199838885d6d856e"
+  },
+  {
+   "pair": "apuidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "arbidr",
+   "days": 9,
+   "avgDailyTurnoverIdr": 77035944.83743688,
+   "firstDay": "2023-10-26",
+   "rawHash": "23527d3cdba28005aa1a33cf4fec35cafef1d5c3b7e8a4cfc1c5267012f2535d"
+  },
+  {
+   "pair": "arcidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "arkmidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "asetquidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "asteridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "athidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "atomidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 84584802.85714847,
+   "firstDay": "2023-10-06",
+   "rawHash": "b66641eb27159cf4fb824b973680cf0d475f24486a33b40280ce358b41adb8b1"
+  },
+  {
+   "pair": "auctionidr",
+   "days": 23,
+   "avgDailyTurnoverIdr": 29777333.143521044,
+   "firstDay": "2023-10-12",
+   "rawHash": "731c8f5165e8d012ead65296e6275bbebc155765cc3b80b400381f943855ef22"
+  },
+  {
+   "pair": "audioidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 10726134.155334765,
+   "firstDay": "2023-10-06",
+   "rawHash": "4460da9f04c477d8a18e3af7fb48a96aadc8b133d74ee7f8977a18efbcc99603"
+  },
+  {
+   "pair": "ausdidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "avaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "avntidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "avaxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 76200412.15763901,
+   "firstDay": "2023-10-06",
+   "rawHash": "f80968739c0dce15f8451f8b66e087f866590ea5fc678f5ddf77d9a605cf05ae"
+  },
+  {
+   "pair": "axlidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "axsidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 41713717.62330006,
+   "firstDay": "2023-10-06",
+   "rawHash": "2a937b8acff5baa6de1c30eb1463c1ba4e31dc63b375704afb74346b9260429d"
+  },
+  {
+   "pair": "aztecidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bananas31idr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "buildonidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "b2idr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "banidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bananaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bandidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bankidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "batidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 8181429.287054389,
+   "firstDay": "2023-10-06",
+   "rawHash": "ec6ed257e5ed98cc3958ab94916c3853d97b8d5c1f1b2d295b6316e1ce7d8e7a"
+  },
+  {
+   "pair": "bchidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": "2023-10-06",
+   "rawHash": "7811f03ac69aaed68009cefbe4314818dfe89f7188d7bb2e5170fe2b8a99d8c5"
+  },
+  {
+   "pair": "beamidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "beatidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bgbidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bicoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1374745.7585000605,
+   "firstDay": "2023-10-06",
+   "rawHash": "b97c1dd1657eef538b29d69c4ff3a333a69711c65249098aa348300ba812eaa6"
+  },
+  {
+   "pair": "bioidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "birbidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bluridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 27161341.01627597,
+   "firstDay": "2023-10-06",
+   "rawHash": "bdbf9297568dd69b7a85ccda8aa294830ec1ce80fb74b583fcb52c64d86ede41"
+  },
+  {
+   "pair": "bmtidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bnbidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 797374776.4150606,
+   "firstDay": "2023-10-06",
+   "rawHash": "07887eed285f0d643451c17ed8d8402c525bbefba552e5f7ae4ba318a2603869"
+  },
+  {
+   "pair": "bnkridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bnxnewidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bomeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bonkidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bpidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "brettidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "bsvidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "cakeidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 46278271.913137004,
+   "firstDay": "2023-10-06",
+   "rawHash": "6ae9abe62fb0404862720dc60a86ada87b5a4978bd33432f4123402453eb40eb"
+  },
+  {
+   "pair": "castidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "catidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "catiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "celoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 15791198.30849182,
+   "firstDay": "2023-10-06",
+   "rawHash": "2998606f4536dfb93dfe2665bb01747a81d614400f928893642e154c7c046bee"
+  },
+  {
+   "pair": "celridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 28936629.94840904,
+   "firstDay": "2023-10-06",
+   "rawHash": "02db279b317d58f30aa5d4a9c15b234d0633db2f24623bf493d502d749bc2dde"
+  },
+  {
+   "pair": "cgptidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "cheemsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "chillguyidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "chridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 2179972.3963284343,
+   "firstDay": "2023-10-06",
+   "rawHash": "4ad98b671f3b242f51806591d02e7959525af376ee1fe27058556ae9de76ab6e"
+  },
+  {
+   "pair": "chzidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 38213500.0593436,
+   "firstDay": "2023-10-06",
+   "rawHash": "101a271494c185c2142b89d610617ea25ca3deeedde4f7e7944f991db74c7b07"
+  },
+  {
+   "pair": "cjlidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ckbidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 99646690.53611985,
+   "firstDay": "2023-10-06",
+   "rawHash": "053fc14731a29b52d9effe7f94ca71331300038df6546e809d382fa5bd488d39"
+  },
+  {
+   "pair": "cngidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "coinxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "c98idr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4966073.060674983,
+   "firstDay": "2023-10-06",
+   "rawHash": "ac10b9abaa377f13cee6a33c5273ba7afa3378d799d74c921fbf693e4fd2c072"
+  },
+  {
+   "pair": "colidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 17776803.742790636,
+   "firstDay": "2023-10-06",
+   "rawHash": "97acd49ae55aa203a13b94c24af32b6eaf381dd7010d7a13952712db1cdb520b"
+  },
+  {
+   "pair": "compidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 44980182.84690443,
+   "firstDay": "2023-10-06",
+   "rawHash": "30e10e96d2f881750b6aefff55e04bd351e4e1ffc80d9735e1d6eb5135dddd72"
+  },
+  {
+   "pair": "conxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "cowidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "crclxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "creamidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "croidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 22468774.199421942,
+   "firstDay": "2023-10-06",
+   "rawHash": "05375c61c968fd7ca129e23246f33eb5a3e0c9e3c4a529703c21316516049ce3"
+  },
+  {
+   "pair": "croakidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "crvidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 35403362.12803073,
+   "firstDay": "2023-10-06",
+   "rawHash": "33f3a01e2ab910984c2f8e9fdcc9eba2ffa85b052204ef5e43158525e78d1ab3"
+  },
+  {
+   "pair": "cstidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ctcidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ctkidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ctsiidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3076126.125869609,
+   "firstDay": "2023-10-06",
+   "rawHash": "56c7f48dc423288614e0970971f306d2328ec34d886cfc9e459220ae926e48a9"
+  },
+  {
+   "pair": "cvcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 2063462.529801252,
+   "firstDay": "2023-10-06",
+   "rawHash": "2de6945b850d1e54e86b0b3109eb83ec58286fd6e7d1af79fae8de34388edfd3"
+  },
+  {
+   "pair": "cvxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1139746.9583267453,
+   "firstDay": "2023-10-06",
+   "rawHash": "0f5e4011c7e8b4651a74534a1874fe94a9cdcfdb13704a81ea97dc93d8069eda"
+  },
+  {
+   "pair": "cyberidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "degenidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "depidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 95624116.1816707,
+   "firstDay": "2023-10-06",
+   "rawHash": "654f93a40a4182f3c62d78ef2c04a1c6ab9ac87327b927f27ac29b198b943bba"
+  },
+  {
+   "pair": "dexeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "dfgidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 17290201.28647288,
+   "firstDay": "2023-10-06",
+   "rawHash": "7c8d6e95e0bbe8ff0f6da1f63d83a1892a4161245eb40d5df99e35cc661fac81"
+  },
+  {
+   "pair": "dgbidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 58180693.9584707,
+   "firstDay": "2023-10-06",
+   "rawHash": "b0684310b6719726861f884edf86f3618d804f69685d1a01e28cf37b3fca6d27"
+  },
+  {
+   "pair": "dodoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "dogeidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 2332283042.24785,
+   "firstDay": "2023-10-06",
+   "rawHash": "c3f2494dacf398e78608670cffe2a3ecdb19260dcdc338d14fc117ed51d0388a"
+  },
+  {
+   "pair": "dogsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "dotidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 312585468.17503047,
+   "firstDay": "2023-10-06",
+   "rawHash": "610df705534a5455d8ee6e088ba2186060671f271477e0ae7845d9e41b756239"
+  },
+  {
+   "pair": "drxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "duskidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "edenidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "edenaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "egldidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 19606722.443713948,
+   "firstDay": "2023-10-06",
+   "rawHash": "46ce5ff1bfacc4309116e844873fe80b44bbfd1862bab13a5d914839692230cc"
+  },
+  {
+   "pair": "eigenidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "enaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "enjidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 36612595.49442442,
+   "firstDay": "2023-10-06",
+   "rawHash": "fe668e6b97a0bfc23a4ee4e2c91007e9bd9c5fa36dfb4658f32cc4dfa81faf54"
+  },
+  {
+   "pair": "ensidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 8612290.62714619,
+   "firstDay": "2023-10-06",
+   "rawHash": "7e7e8c9268136b3bb7cec90120e4def3aa8f4a9a14adb69b8a3f7e4fee634b96"
+  },
+  {
+   "pair": "ernidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "etcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 70923530.2843363,
+   "firstDay": "2023-10-06",
+   "rawHash": "2fd3d9bb02407683f5cd8b81d868723a93da514d8dd84c16c934ed0d5a5d0133"
+  },
+  {
+   "pair": "espidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ethidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4614922450.166086,
+   "firstDay": "2023-10-06",
+   "rawHash": "e1866b52da10a238ba8d5c564adc6e473bc145dd86f767d0903b2a588344d645"
+  },
+  {
+   "pair": "ethfiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "fancidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "fartcoinidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "fetidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ffidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "filidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 61252134.00806189,
+   "firstDay": "2023-10-06",
+   "rawHash": "ca84f68ed32e459eae28b2270034793b34799f018cf8de80e3bf54c36eec6999"
+  },
+  {
+   "pair": "flokiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "flridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 21283354.36604125,
+   "firstDay": "2023-10-06",
+   "rawHash": "0d78b19ac9f7e23b4fef9ef79a566f14d732101578baa98208f66d60f7e99b61"
+  },
+  {
+   "pair": "fluxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4336375.301206308,
+   "firstDay": "2023-10-06",
+   "rawHash": "2e32cbdc0eb4eb3da48b998f663c87816207e4c0d7cc4ad6c0d5aafebaaf6887"
+  },
+  {
+   "pair": "fuelidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "funidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "galagamesidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 98575318.37940066,
+   "firstDay": "2023-10-06",
+   "rawHash": "a9c8c20ff98fd43651cefa1d2f914d4c50f09c12f1dbdaba18791b89ac3a27b9"
+  },
+  {
+   "pair": "game2idr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "geniusidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "glidridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "gididr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "gigaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "giggleidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "glmidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1747440.312299574,
+   "firstDay": "2023-10-06",
+   "rawHash": "16766bfd3e0589302f784c1e766d660cb4a0601b2151bbb1e0341f842a14c9c0"
+  },
+  {
+   "pair": "gmtidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 14001921.994366067,
+   "firstDay": "2023-10-06",
+   "rawHash": "d6af806df2efaadfb976bc7822285b58f95331737e1bcf6ddb6cf526e9e48360"
+  },
+  {
+   "pair": "gmxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "gnoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 16149570.018312715,
+   "firstDay": "2023-10-06",
+   "rawHash": "1fdc02be75894ef8311bea7e6499a0e5398d241d661049ef6baa3c17950eef18"
+  },
+  {
+   "pair": "goatidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "googlxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "gpsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "grassidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "gravityidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "griffainidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "grtidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 123704057.02253917,
+   "firstDay": "2023-10-06",
+   "rawHash": "b3b1abe2a1085841f0f6cf20d172e72c7f2c7ff8a0acf02a3223cbe86ac3ed6a"
+  },
+  {
+   "pair": "gtcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1698007.4562280832,
+   "firstDay": "2023-10-06",
+   "rawHash": "fbd9a8e91f6fc349a5402bd6b0c3f19625e92177d7f7673b2fff2e76cf156ccd"
+  },
+  {
+   "pair": "gweiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "humanityidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "haedalidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "hartidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 5838634.249168014,
+   "firstDay": "2023-10-06",
+   "rawHash": "7cbd98a4a350f7aaa28195d74a55cf9dae7160518252034ff8ba2774a1d3b549"
+  },
+  {
+   "pair": "hbaridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 228101180.60479906,
+   "firstDay": "2023-10-06",
+   "rawHash": "4b15b2551595b9f29c10bbb1d2ddb7d55f9af319fddd4fa63487f3f507012ae1"
+  },
+  {
+   "pair": "hftidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "highidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3648201.8850044697,
+   "firstDay": "2023-10-06",
+   "rawHash": "2e95c852026ca819c8fc6e675428799227b13a868f90c64aafe690cb5f2fc06e"
+  },
+  {
+   "pair": "hiveidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 7729004.349313794,
+   "firstDay": "2023-10-06",
+   "rawHash": "8453814e12eb4fc46fa9bb2352eb59f836e56108bd688a5b586b1a910d460773"
+  },
+  {
+   "pair": "hmstridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "hntidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 10747807.778639346,
+   "firstDay": "2023-10-06",
+   "rawHash": "3bd122fbe3bba247b5118309b89882b401fefb573848dbc0977d2a7cd36b1da4"
+  },
+  {
+   "pair": "homeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "hotidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 106820703.40082437,
+   "firstDay": "2023-10-06",
+   "rawHash": "e6d4551478e4d09fdbda182dd2c991da14b346b939a7a7ad61976a3ffeb8fd23"
+  },
+  {
+   "pair": "humaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "hypeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "hyperidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "myroidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "myxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "spaceididr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "icntidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "icpidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "idxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "idtidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ilvidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "imxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4422149.188203767,
+   "firstDay": "2023-10-06",
+   "rawHash": "d01126eb526548c5d3e3bec6034d22936ac53a982784d41a01fc62ec6352e108"
+  },
+  {
+   "pair": "indridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "injidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 46997156.84582992,
+   "firstDay": "2023-10-06",
+   "rawHash": "9ec5a20e3ff91b2ddcdd81d53c43aafce46eb93cfc158ed7ab916e1ddddbdb3a"
+  },
+  {
+   "pair": "ioidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "iostidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 14837809.831426283,
+   "firstDay": "2023-10-06",
+   "rawHash": "7a2eace08cbe72b9f026010d8066618a0697735a70636f819eda672aead58242"
+  },
+  {
+   "pair": "iotaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 15359338.499000512,
+   "firstDay": "2023-10-06",
+   "rawHash": "5489de4eb8c99f02c35f86f62bb7b1934b94d3979743d2ac1ef4309b7d4797c7"
+  },
+  {
+   "pair": "iotxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 6883138.90200349,
+   "firstDay": "2023-10-06",
+   "rawHash": "ea20bf8559425e587f72e90bd2f2f7bb5dffa804f2b34829be3cee7f36163c55"
+  },
+  {
+   "pair": "iqidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "islmidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "jasmyidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 24425093.844569582,
+   "firstDay": "2023-10-06",
+   "rawHash": "47fa397c3789d0178ca4695fedd55be3c408ed5c54097c926336c6bd387e4c8d"
+  },
+  {
+   "pair": "jellyjellyidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "joeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "jupidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "jstidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 18848388.669694092,
+   "firstDay": "2023-10-06",
+   "rawHash": "5a606fb7e600331800630926809fba84396819689460d0d40da85e6fe9964690"
+  },
+  {
+   "pair": "jtoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "kaiaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "kaitoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "kdagidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 62129988.5737776,
+   "firstDay": "2023-10-06",
+   "rawHash": "9e3dbae7aa837f68e62c79a1e00f3858b34531ae48f85defd99486b03e44d310"
+  },
+  {
+   "pair": "kernelidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "kmnoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "kncidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 7538201.367511285,
+   "firstDay": "2023-10-06",
+   "rawHash": "36d00cddc66a32134ade9de706b6747ef52b09c740700fd50efe57af3aa0103f"
+  },
+  {
+   "pair": "komaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ksmidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 9341246.267938547,
+   "firstDay": "2023-10-06",
+   "rawHash": "c4c110e46d6cc182aa953df3a5148f8a2bc6cb87892164872a649a4e18c03a7c"
+  },
+  {
+   "pair": "ktaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ldoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 6009891.2370632235,
+   "firstDay": "2023-10-06",
+   "rawHash": "b39633f6f2368df537ba4f7a950f7f5591ea38f8d1575960c477dace8bb5de2f"
+  },
+  {
+   "pair": "leoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1930613.666207913,
+   "firstDay": "2023-10-06",
+   "rawHash": "40031b356c9633a700c90272e315cf3a89b8697b691908eb8bc482718a46f75e"
+  },
+  {
+   "pair": "lighteridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "lineaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "linkidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 460428941.83426017,
+   "firstDay": "2023-10-06",
+   "rawHash": "7882c086999fddcfac8d025c00132f46e01977452b3d632d6d39086db50429a6"
+  },
+  {
+   "pair": "listaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "l3idr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "lskidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "lptidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3887267.2362373574,
+   "firstDay": "2023-10-06",
+   "rawHash": "91500520a66f536b50b0d8fb075b2bf1780dae2d0e7836e68180a8fef5c934c1"
+  },
+  {
+   "pair": "lqtyidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 28479474.389668033,
+   "firstDay": "2023-10-06",
+   "rawHash": "3a7dcf8b64d4c4e6463a3b0d87995b81d37566f2128fdc5b99b56fa582616cb7"
+  },
+  {
+   "pair": "ltcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 339515027.24465126,
+   "firstDay": "2023-10-06",
+   "rawHash": "58c0d24e753847c87cd7e69feb4bbcc7e2e6a0e9c6f5e22381a0832af32b2cab"
+  },
+  {
+   "pair": "lunaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": "2023-10-06",
+   "rawHash": "1f74af08702450e2410ccac416863c0907aebddc3c7c4541163ffe2dd8849e3f"
+  },
+  {
+   "pair": "luncidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "lyfelidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": "2023-10-06",
+   "rawHash": "e53f669fa076c4144071289b931674678d4ffc09df94aa1e4b4650efc81839e9"
+  },
+  {
+   "pair": "magicidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "manaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 95521476.45822772,
+   "firstDay": "2023-10-06",
+   "rawHash": "7c3c09ed75376c7e2f7f714899abae9ee8fe7d4832baac8c46c683b34afd3871"
+  },
+  {
+   "pair": "mantaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "marscoinidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "maskidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4653281.953368465,
+   "firstDay": "2023-10-06",
+   "rawHash": "17be5c37caeaa09db694fe06a0c19616d4a3ddb93216508dcfc654f3b19d922d"
+  },
+  {
+   "pair": "mavidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "maviaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mctidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 42044251.98858379,
+   "firstDay": "2023-10-06",
+   "rawHash": "d7574ee32b18b3378de956c9df59678003a415413cfc928dbc49e88ee5281e0d"
+  },
+  {
+   "pair": "meidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "melaniaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "memeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "metidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "metaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 183394176.2454992,
+   "firstDay": "2023-10-06",
+   "rawHash": "12ae1bfe50354a3e0ab908c9faadb36f4cf287c6efed6f149ae7daf640b46e37"
+  },
+  {
+   "pair": "metisidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mewidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mitoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mntidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mocaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mogidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "moltidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "monidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "moodengidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "morphoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "moveidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mproidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mrsidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 15000917.046088284,
+   "firstDay": "2023-10-06",
+   "rawHash": "a6cff2aeeb3096c56c37de70267cb43bb3970906efcc7bc1aaae483ca6f00e18"
+  },
+  {
+   "pair": "mtcidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "mubarakidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nbtnewidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 12898814.537809996,
+   "firstDay": "2023-10-06",
+   "rawHash": "57734fd072b59ff06c033adcf34d71eac441010f46627f8fc1de566966f63e0a"
+  },
+  {
+   "pair": "nearidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 35837343.96129437,
+   "firstDay": "2023-10-06",
+   "rawHash": "8fb94e110d5a170cf4f4b8dd42a235c3a6385fa8c1f91c23b421dadd0bc936d5"
+  },
+  {
+   "pair": "neiroctoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "neoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 15298724.397599835,
+   "firstDay": "2023-10-06",
+   "rawHash": "8383c76e9b20af44069a3115f7f0774c086b7162ce45d50bbdf99df32aad3412"
+  },
+  {
+   "pair": "neorpnewidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "neonidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "newtidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nexoidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1108851.7173426333,
+   "firstDay": "2023-10-06",
+   "rawHash": "a4c1e164126a75374ce3d9e6a473032bf50975ae09687909ba41247b14f2e662"
+  },
+  {
+   "pair": "nightidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nmdidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nmridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nomidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "novaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "npcidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nrgidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 25650002.80508713,
+   "firstDay": "2023-10-06",
+   "rawHash": "c3f4e5dcfcb19bcce6768b28e5041e2809de5150761a84996a5f0e86db5880c2"
+  },
+  {
+   "pair": "nusaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 12980759.692173963,
+   "firstDay": "2023-10-06",
+   "rawHash": "0283c54987e782a5a0123a1a4d05f2c2a86c05b7e3ed60dd9e39c4f878c77376"
+  },
+  {
+   "pair": "nvdaxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "nxaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ognidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 27459000.82955935,
+   "firstDay": "2023-10-06",
+   "rawHash": "8753a44cff5987cc8b22a18b234ad26f69f7acda75d76920a0018f13e14b5942"
+  },
+  {
+   "pair": "okbidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1560992.9671323833,
+   "firstDay": "2023-10-06",
+   "rawHash": "9d1090876dd212bf96b050401be29b07b87a2ff6aedeaac33109b7687965e1a3"
+  },
+  {
+   "pair": "okusdidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ondoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "onlidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ontidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 2808192.630177609,
+   "firstDay": "2023-10-06",
+   "rawHash": "0e1fe3c4e04cd9b49dd64b0e0fa3f741cb6901b9237accc3a333fd1e13f51aeb"
+  },
+  {
+   "pair": "opidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "orbsidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 331256638.7154646,
+   "firstDay": "2023-10-06",
+   "rawHash": "1ce173b947d8aad6d4f6243eb35dcfd1c0871ff0fe5cf8e3a353ae05e2bc6681"
+  },
+  {
+   "pair": "orcaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "orderlyidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "payaiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pendleidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "penguidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "peopleidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pepeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "plpaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "plumeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "gnsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "phaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pieverseidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pippinidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pixelidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pmidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pnutidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "polsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "polidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pondidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ponkeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "portalidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "popcatidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "powridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "primeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "promidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "proveidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pufferidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pumpidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "pythidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "qntidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 46691401.23484023,
+   "firstDay": "2023-10-06",
+   "rawHash": "6258089ee7f5e2f83887e6898d141012717d36aa56e87981fa695ec4617d11ce"
+  },
+  {
+   "pair": "radidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "rareidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "rayidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "redidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "repidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "reqidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "rezidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "riveridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "rlcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1041666.8082954541,
+   "firstDay": "2023-10-06",
+   "rawHash": "f17c2a981ca546bcd549613d058f168c9b3ee6181320794b0b92b0b42a12c89a"
+  },
+  {
+   "pair": "renderidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "rplidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 5220610.2055276865,
+   "firstDay": "2023-10-06",
+   "rawHash": "1a70ff4efaa0bd9b53c05454245ccf6a80036be902733d2b6231def3949aa178"
+  },
+  {
+   "pair": "rsridr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 6660870.30028662,
+   "firstDay": "2023-10-06",
+   "rawHash": "b898847017b771e8723b0de30360f7dcaa7d8f60d9c1fb5039eb79e8b604e36e"
+  },
+  {
+   "pair": "rvnidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 21998771.28643504,
+   "firstDay": "2023-10-06",
+   "rawHash": "a077684d3c76c35756dfed40ae582d443cc6519feb627119b65558f362d129c1"
+  },
+  {
+   "pair": "sandidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 182118205.07180613,
+   "firstDay": "2023-10-06",
+   "rawHash": "879e380b29c094a553b5a2228bffc4164f891a7d8b02f5862e51f6e52742421b"
+  },
+  {
+   "pair": "safeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "saharaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sapienidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sentidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sfiidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 14494991.923328388,
+   "firstDay": "2023-10-06",
+   "rawHash": "6dcb1bbe64e8df55a36a9bdeecfe7a1128c5a49df7008f7281c634d6c5b069d5"
+  },
+  {
+   "pair": "sfpidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4815901.164636704,
+   "firstDay": "2023-10-06",
+   "rawHash": "51d2888458d344c81fe60267928821c509c3ee86389b17eccd7365a6bff118f8"
+  },
+  {
+   "pair": "shibidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "shellidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "signidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "showidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sklidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 2304883.4197473372,
+   "firstDay": "2023-10-06",
+   "rawHash": "e5e33c3f107a3d20cc111134042fa0716e7ee59c8adb9681958e1391b45c5747"
+  },
+  {
+   "pair": "skridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "skyidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "skyaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "skyaiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "snidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sntidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "snxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 13646645.83207243,
+   "firstDay": "2023-10-06",
+   "rawHash": "3377e351021a7ff52c404272857f5915a5bb80311a6c89921938891c94f11d68"
+  },
+  {
+   "pair": "solidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1596202282.18992,
+   "firstDay": "2023-10-06",
+   "rawHash": "676d4c266e8aba6a2aff8dc3c6d8efc72d35b1232e4d1ef643c8a992df3d4b9c"
+  },
+  {
+   "pair": "solayeridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "solvidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "somiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sonicidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "soonidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "spellidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "spkidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "spxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sqdidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ssvidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 4778733.597477939,
+   "firstDay": "2023-10-06",
+   "rawHash": "4187e1be58939fcc97783002c08d9f2229bc866b4dfe2bb997207d3a30d9a55d"
+  },
+  {
+   "pair": "stgidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 1304560.4297788613,
+   "firstDay": "2023-10-06",
+   "rawHash": "fb57dd8e2f0060d926a648d299b4aeaf6b437d4a9f848fac271eadffd1bf0325"
+  },
+  {
+   "pair": "stikidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 621049372.9326764,
+   "firstDay": "2023-10-06",
+   "rawHash": "4eeecb75761f2a850d4503ec5ca623978ec1273efde6ee2b75584b0d527df694"
+  },
+  {
+   "pair": "stoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "strkidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "streamidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "suiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sunidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sundogidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "superverseidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "sushiidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 164053687.74201676,
+   "firstDay": "2023-10-06",
+   "rawHash": "d91824a7fbd5671f781d0a700de71d1df5fbb7d64674b95c01f15f4abd6a1675"
+  },
+  {
+   "pair": "sxtidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "syrupidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tagidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "taikoidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "telidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 64407516.39706834,
+   "firstDay": "2023-10-06",
+   "rawHash": "47a6b806f64eb70cf31fcfa5011e1202ffb669c65c3abe5b384f1750c344856d"
+  },
+  {
+   "pair": "tenidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 25809395.121310238,
+   "firstDay": "2023-10-06",
+   "rawHash": "765d5acc4fb5e36e7ec181dd7855e63ebb8b97661be3d10022af672a1a3b79be"
+  },
+  {
+   "pair": "tfuelidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 6344945.659739792,
+   "firstDay": "2023-10-06",
+   "rawHash": "f2772f33c67916b97205a41b610120f7275ad6406dda9f8b66b3ed2b2e2fc77b"
+  },
+  {
+   "pair": "thetaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 25804713.809589166,
+   "firstDay": "2023-10-06",
+   "rawHash": "1cf8c7c730b943acc518b695b1ff7bbeca4d6396a75abe77b1d6f71b5f94aa22"
+  },
+  {
+   "pair": "thresholdidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tiaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tlmidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tmgidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 73675918.44341712,
+   "firstDay": "2023-10-06",
+   "rawHash": "3d953c8d680300acac15fba1fa3059e06cfa48c61d1d9aa097283a1dbb844181"
+  },
+  {
+   "pair": "tnsridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tokenidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tonidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "toshiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "tracidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "trbidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "triaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "trollsolidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "trumpidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "trxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 949622714.5667412,
+   "firstDay": "2023-10-06",
+   "rawHash": "695f4a89e9b8a92d6f0b72808ec671c999392bcaa73938bebfdf7a3a37339d17"
+  },
+  {
+   "pair": "tslaxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "turboidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "turtleidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ubidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "uaiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "ucjlidr",
+   "days": 9,
+   "avgDailyTurnoverIdr": 9346221.404600598,
+   "firstDay": "2023-10-26",
+   "rawHash": "72e7dec702046028f56fe1d2f678850536208fe310d010367a94f30c7ceff611"
+  },
+  {
+   "pair": "umaidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 17536248.56314292,
+   "firstDay": "2023-10-06",
+   "rawHash": "5298f6abea0eff20abae080fcc82d222e6711b71fd75412f2a6bc481c89ed5d1"
+  },
+  {
+   "pair": "uniidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 108423049.41504143,
+   "firstDay": "2023-10-06",
+   "rawHash": "d04d63aec31ffde202076d9c309948d7970febdea6d083d64c936ae37dee4d01"
+  },
+  {
+   "pair": "unmdidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "usatidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "usdxidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "uselessidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "vanryidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "vcgidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3941264.6140254806,
+   "firstDay": "2023-10-06",
+   "rawHash": "03b00a5f2ab9916035d22064edb36115a7848c4136b85f954fdf1f166c9490f2"
+  },
+  {
+   "pair": "veloidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 693331400.1374421,
+   "firstDay": "2023-10-06",
+   "rawHash": "661ceb2005d25b3e52cac87838c880b02512ed2c6ccce274a330c2b851ca9524"
+  },
+  {
+   "pair": "velodromeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "velvetidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "vetidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 24539108.32880338,
+   "firstDay": "2023-10-06",
+   "rawHash": "23b4146099fab39cacc37c4e75f732e0429e7186d83423f554c06e72189cf028"
+  },
+  {
+   "pair": "vexidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 24736241.470696725,
+   "firstDay": "2023-10-06",
+   "rawHash": "d88a2a5c1abb4822a043cd45d1817b6806597daea8437fd5c4ffe22706e758e0"
+  },
+  {
+   "pair": "vineidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "virtualsidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "vvvidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "w3fidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "w3s2idr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "wavesidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 117279038.58499749,
+   "firstDay": "2023-10-06",
+   "rawHash": "ebe3cb0583893f9d91e94b3348104a0ebd7e06b8bc749875230006c3725232e7"
+  },
+  {
+   "pair": "wbtcidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3049630.795087653,
+   "firstDay": "2023-10-06",
+   "rawHash": "38c5cab574c97905582853ef671bc72212a391c91afd59bc458483aca493e109"
+  },
+  {
+   "pair": "wctidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "wealthidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "wifidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "wldidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 22507878.732905168,
+   "firstDay": "2023-10-06",
+   "rawHash": "04562baf91ed249dd2e8d3d2d03f9e3a6d524151516c3fff1e3195085c1d6442"
+  },
+  {
+   "pair": "wlfiidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "wooidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 5107444.222873188,
+   "firstDay": "2023-10-06",
+   "rawHash": "17d7e6dc605e90ef87b976f08686cc099fd5e40f90d734685a4503aabfc2acaa"
+  },
+  {
+   "pair": "wormholeidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "xcnidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "xdcidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "xplidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "xlmidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "wemixidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 100728361.38254118,
+   "firstDay": "2023-10-06",
+   "rawHash": "ecd88de83fc73ddc4b5ec10e43bde0775f59ef67941ca290f42963c7a1902d84"
+  },
+  {
+   "pair": "xridr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "xrpidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 3852635403.5579376,
+   "firstDay": "2023-10-06",
+   "rawHash": "4aea8f0dc7a548d719f0e9e41237f4970ba30a9d5675e6fbd24173970b69b540"
+  },
+  {
+   "pair": "xtzidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 21146795.50945688,
+   "firstDay": "2023-10-06",
+   "rawHash": "4fe470a42ffa1aea17b7660e3e03b23fc3e8dea87899271e9a64b9b5b91964b2"
+  },
+  {
+   "pair": "xvsidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 6649045.879993143,
+   "firstDay": "2023-10-06",
+   "rawHash": "1795e0435b534c9c3f523d6b8d825f3fa6d1cfb719cc1509e91aa822fc8acb02"
+  },
+  {
+   "pair": "yfiidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 32479817.00117742,
+   "firstDay": "2023-10-06",
+   "rawHash": "80c217ee2063280157d149e8215dc608cc1e416dda95939685a96a6c9e1e2672"
+  },
+  {
+   "pair": "yggidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zamaidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zbcnidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zenidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zerebroidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zilidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 195968928.9762157,
+   "firstDay": "2023-10-06",
+   "rawHash": "f2e75d5641c67063649a341928fe1e863aa4492b5ffa7792995c9bb317d09caa"
+  },
+  {
+   "pair": "zkcidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zkjidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zoraidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zroidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+   "pair": "zrxidr",
+   "days": 29,
+   "avgDailyTurnoverIdr": 24951958.615160502,
+   "firstDay": "2023-10-06",
+   "rawHash": "981862f74a2a3fa9a688e150ce9b86c0cd98d07cda7f0ff18c3585baccf3a5d4"
+  },
+  {
+   "pair": "kiteidr",
+   "days": 0,
+   "avgDailyTurnoverIdr": 0,
+   "firstDay": null,
+   "rawHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+ ]
+}
